@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Ejemplo de HTML5">
+  <meta name="keywords" content="HTML5, CSS3, JavaScript">
+  <meta http-equiv="refresh" content="20;" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Divisones Sem&aacute;ticas</title>
+  <link rel="stylesheet" type="text/css" href="css/normalize.css" >
+  <link rel="stylesheet" type="text/css" href="css/estiloBasico.css">
+</head>
+<body>
+  <div id="agrupar">
+
+  <header id="cabecera">
+      <h1>Blog de Marlene Bravo</h1>
+  </header>
+
+  <nav id="menu">
+    <ul>
+    <li><a href="#principal">principal</a></li>
+    <li><a href="#imagen2">fotos</a></li>
+    <li><a href="#videoss">videos</a></li>
+    <li><a href="#contacto">contacto</a></li>
+    </ul>+
+  </nav>
+
+  <section id="seccion">
+      <article id="principal"><!--Primer articulo-->
+        <header>
+              <hgroup>
+                  <h1>Un poco de mi</h1>
+                  <h4>2018-2021: Ciclo Formativo de Grado Media Superior Programaci&oacute;n CBTis 192 (Ixtaczoquitlan). <br>
+                    2021-20**: Ciclo Formativo de Grado Superior en Ing. Sistemas Computacionales Instituto Tecnológico de Orizaba (Orizaba). <br>
+                    Idioma Ingl&eacute;s medio alto</h4>
+              </hgroup>
+              <time datetime="2024-03-04" pubdate>
+                    publicado 04-03-2024
+              </time>
+        </header>
+        Bienvenidos a mi Blog          
+        <figure>
+                <div align="center">
+                  <video width="60%"  controls autoplay loop>
+                  <source src="media/yop.mp4" type="video/mp4" >
+                  </video>
+                  </div>
+                <figcaption>
+                    Video de mi presentaci&oacute;n
+                </figcaption>
+          </figure>
+
+          <footer>
+              <p>comentarios (0)</p>
+          </footer>
+      </article><!-- Fin Primer articulo-->
+
+      <article><!-- Segundo articulo-->
+          <header>
+            <hgroup>
+                <h1>mi escuela</h1>
+                <h4>Esta es la ubicaci&oacute;n de mi escuela</h4>
+            </hgroup>
+            <time datetime="2024-03-04" pubdate>
+              publicado 04-03-2024
+            </time>
+         </header>
+         Mi escuela
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1942.7857651933596!2d-97.09822609915147!3d18.855519376435506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85c502a948805559%3A0x318132c258df9add!2sOte.%209%201040%2C%20Emiliano%20Zapata%2C%2094320%20Cdad.%20Mendoza%2C%20Ver.!5e0!3m2!1ses!2smx!4v1709664064933!5m2!1ses!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         <figcaption>
+          Accede a la ubicaci&oacute;n
+         </figcaption>
+            <p>comentarios (0)</p>
+          </footer>
+    </article> <!-- Fin Segundo articulo-->
+
+    <article><!--articulo de fotos------------------------------->
+      <header>
+        <hgroup>
+            <h1>Mis Fotos</h1>
+            <h4>Pueden echar un vistazo a mis fotos</h4>
+        </hgroup>
+        <time datetime="2024-03-06" pubdate>
+          publicado 06-03-2024
+        </time>
+     </header>
+     mi escuela
+     <figure>
+        
+          <img id="imagen" align="left" src="img/yop.jpg" alt="Yo">   
+         <img id="imagen2" align="right" src="img/yop2.jpg" alt="Yo">
+         <img id="imagen5" align="right" src="img/yop5.webp" alt="Yo">
+       
+          <img id="imagen3" align="center" src="img/yop3.jpg" alt="Yo"> 
+        
+          <img id="imagen4" align="center" src="img/yop4.webp" alt="Yo">
+          
+          
+        </figure>
+     <footer>
+        <p>comentarios (0)</p>
+      </footer>
+    </article>
+
+    <article><!--articulo videos----------------->
+      <header>
+            
+            <time datetime="2024-03-06" pubdate>
+                  publicado 06-03-2024
+            </time>
+      </header>
+      Mis videos         
+      <figure>
+              <div align="center">
+                <video id="videoss" width="60%"  controls autoplay loop>
+                <source src="media/yop.mp4" type="video/mp4" >
+                </video>
+                </div>
+                <div align="center">
+                  <video width="60%"  controls autoplay loop>
+                  <source src="media/yop2.mp4" type="video/mp4" >
+                  </video>
+                  </div>
+                  <div align="center">
+                    <video width="60%"  controls autoplay loop>
+                    <source src="media/yop3.mp4" type="video/mp4" >
+                    </video>
+                    </div>
+                    <div align="center">
+                      <video width="30%"  controls autoplay loop>
+                      <source src="media/yop4.mp4" type="video/mp4" >
+                      </video>
+                      </div>
+              <figcaption>
+                  alunos videos mios
+              </figcaption>
+        </figure>
+
+        <footer>
+            <p>comentarios (0)</p>
+        </footer>
+    </article><!-- Fin Primer articulo-->
+
+</section> <!--Fin de section seccion-->
+
+  <aside id="columna"> <!-- aside -->
+      <blockquote><h3>Siganme en mis Redes Sociales</h3></blockquote>
+      <blockquote><h2>Vayan r&aacute;pido:</h2></blockquote>
+      <a href="https://www.facebook.com/marlensitha.bravo">
+       <figure>
+         <img src="img/facebook.png" width="50%" alt="facebook"  >
+       </figure>
+     </a>
+
+     <a href="https://www.instagram.com/marbrarey/">
+        <figure>
+          <img src="img/instagram.png" alt="instagram">
+        </figure>
+      </a>
+  </aside> <!-- Fin aside -->
+
+  <footer id="pie">
+      Derechos Reservados &copy; 2024
+      <address id="contacto">
+        Pueden comunicarse al 272692551
+         
+      </address>
+  </footer>
+
+</div> <!--fin div agrupar-->
+
+</body>
+</html>
